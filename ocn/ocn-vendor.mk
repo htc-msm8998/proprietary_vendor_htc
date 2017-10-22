@@ -1018,6 +1018,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/libpdmapper.so:system/vendor/lib64/libpdmapper.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libpdnotifier.so:system/vendor/lib64/libpdnotifier.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libprotobuf-cpp-lgcy.so:system/vendor/lib64/libprotobuf-cpp-lgcy.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libpvr.so:system/vendor/lib64/libpvr.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
