@@ -474,7 +474,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/htc/ocn/proprietary/vendor/lib/hw/fingerprint.fpc.so:system/vendor/lib/hw/fingerprint.fpc.so \
     vendor/htc/ocn/proprietary/vendor/lib/hw/gatekeeper.msm8998.so:system/vendor/lib/hw/gatekeeper.msm8998.so \
-    vendor/htc/ocn/proprietary/vendor/lib/hw/sound_trigger.primary.msm8998.so:system/vendor/lib/hw/sound_trigger.primary.msm8998.so \
     vendor/htc/ocn/proprietary/vendor/lib/hw/vulkan.msm8998.so:system/vendor/lib/hw/vulkan.msm8998.so \
     vendor/htc/ocn/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/htc/ocn/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
@@ -522,7 +521,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/htc/ocn/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/htc/ocn/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/htc/ocn/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/htc/ocn/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/htc/ocn/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/htc/ocn/proprietary/vendor/lib/libcdsprpc.so:system/vendor/lib/libcdsprpc.so \
@@ -591,8 +589,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/libchromatix_imx362_htc_zsl_video_lc898212xd_60fps.so:system/vendor/lib/libchromatix_imx362_htc_zsl_video_lc898212xd_60fps.so \
     vendor/htc/ocn/proprietary/vendor/lib/libchromatix_imx362_htc_zsl_video_lc898212xd_hfr.so:system/vendor/lib/libchromatix_imx362_htc_zsl_video_lc898212xd_hfr.so \
     vendor/htc/ocn/proprietary/vendor/lib/libchromatix_imx362_htc_zsl_video_lc898212xd_qtr_30fps.so:system/vendor/lib/libchromatix_imx362_htc_zsl_video_lc898212xd_qtr_30fps.so \
-    vendor/htc/ocn/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/htc/ocn/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/htc/ocn/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/htc/ocn/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/htc/ocn/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -843,7 +839,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/htc/ocn/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/htc/ocn/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/htc/ocn/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/htc/ocn/proprietary/vendor/lib/libspcom.so:system/vendor/lib/libspcom.so \
     vendor/htc/ocn/proprietary/vendor/lib/libspl.so:system/vendor/lib/libspl.so \
     vendor/htc/ocn/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
@@ -945,7 +940,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
-    vendor/htc/ocn/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libc2d30-a5xx.so:system/vendor/lib64/libc2d30-a5xx.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libcdsprpc.so:system/vendor/lib64/libcdsprpc.so \
@@ -1047,7 +1041,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ocn/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libril-qc-qmi-1-cdma.so:system/vendor/lib64/libril-qc-qmi-1-cdma.so \
-    vendor/htc/ocn/proprietary/vendor/lib64/libril-qc-qmi-1-default.so:system/vendor/lib64/libril-qc-qmi-1-default.so \
+    vendor/htc/ocn/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/htc/ocn/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/htc/ocn/proprietary/vendor/lib64/librilqmiservices.so:system/vendor/lib64/librilqmiservices.so \
@@ -1115,6 +1109,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
+    libbtnv \
     libgpustats \
     libsd_sdk_display \
     libsdm-disp-apis \
@@ -1122,9 +1117,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libqct_resampler \
     TimeService \
-    CNEService \
     QtiTetherService \
     com.qualcomm.location \
-    ims \
-    imssettings \
     qcrilhook
